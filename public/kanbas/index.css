@@ -61,8 +61,8 @@ a {
 }
 
 .kanbas-navigation-item-text {
-    margin: 0.5rem 0;
-    font-size: 0.85rem;
+    margin: 5px 0;
+    font-size: 0.85rem !important;
 }
 
 @media (max-width: 768px) {
