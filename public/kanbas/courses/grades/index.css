@@ -37,22 +37,22 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.5rem 0;
+    padding: 5px 0;
 }
 
 .grades-navigation-item-container a {
     color: #ffffff;
 }
 
-.navbar-item-active {
+.grades-navigation-item-active {
     background: white;
 }
 
-.navbar-item-active a {
+.grades-navigation-item-active a {
     color: #D41B2C;
 }
 
-.navbar-item-active .white {
+.grades-navigation-item-active .white {
     color: grey;
 }
 
@@ -76,8 +76,8 @@ a {
 }
 
 .grades-navigation-item-text {
-    margin: 0.4rem 0;
-    font-size: 0.8rem;
+    margin: 5px 0;
+    font-size: 0.8rem !important;
 }
 
 .grey {
@@ -119,7 +119,7 @@ a {
     padding: 0;
 }
 
-.account-navigation {
+.grades-navigation {
     width: 200px;
 }
 
@@ -129,12 +129,12 @@ a {
 }
 
 
-.account-nav-active {
+.grades-nav-active {
     border-left: 2px solid black;
     padding-left: 0.5rem;
 }
 
-.account-nav-active .grades-navigation-element-title {
+.grades-nav-active .grades-navigation-element-title {
     color: black;
 }
 

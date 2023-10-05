@@ -22,7 +22,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.25rem 0;
+    padding: 5px 0;
 }
 
 .kanbas-navigation-item-container a {

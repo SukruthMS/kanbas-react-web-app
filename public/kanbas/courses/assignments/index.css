@@ -16,7 +16,6 @@ body {
 
 
 
-
 a {
     text-decoration: none;
     cursor: pointer;
@@ -37,22 +36,22 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.5rem 0;
+    padding: 5px 0;
 }
 
 .assignment-navigation-item-container a {
     color: #ffffff;
 }
 
-.navbar-item-active {
+.assignment-navigation-item-active {
     background: white;
 }
 
-.navbar-item-active a {
+.assignment-navigation-item-active a {
     color: #D41B2C;
 }
 
-.navbar-item-active .white {
+.assignment-navigation-item-active .white {
     color: grey;
 }
 
@@ -76,8 +75,8 @@ a {
 }
 
 .assignment-navigation-item-text {
-    margin: 0.4rem 0;
-    font-size: 0.8rem;
+    margin: 5px 0;
+    font-size: 0.8rem !important;
 }
 
 .grey {

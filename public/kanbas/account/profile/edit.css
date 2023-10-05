@@ -33,22 +33,22 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.5rem 0;
+    padding: 5px 0;
 }
 
 .edit-profile-item-container a {
     color: #ffffff;
 }
 
-.navbar-item-active {
+.edit-navigation-item-active {
     background: white;
 }
 
-.navbar-item-active a {
+.edit-navigation-item-active a {
     color: #D41B2C;
 }
 
-.navbar-item-active .white {
+.edit-navigation-item-active .white {
     color: grey;
 }
 
@@ -70,9 +70,9 @@ a {
     color: #D41B2C;
 }
 
-.nav-item-text {
-    margin: 0.4rem 0;
-    font-size: 0.8rem;
+.profile-nav-item-text {
+    margin: 5px 0;
+    font-size: 0.8rem !important;
 }
 
 .grey {
@@ -112,7 +112,7 @@ a {
     padding: 0;
 }
 
-.account-navigation {
+.profile-navigation {
     width: 200px;
 }
 
@@ -121,11 +121,11 @@ a {
     margin: 0.25rem;
 }
 
-.account-nav-active {
+.profile-nav-active {
     border-left: 2px solid black;
 }
 
-.account-nav-active .edit-profile-element-title {
+.profile-nav-active .edit-profile-element-title {
     color: black;
 }
 

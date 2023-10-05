@@ -33,22 +33,22 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.5rem 0;
+    padding: 5px 0;
 }
 
 .profile-navigation-item-container a {
     color: #ffffff;
 }
 
-.navbar-item-active {
+.profile-navigation-item-active {
     background: white;
 }
 
-.navbar-item-active a {
+.profile-navigation-item-active a {
     color: #D41B2C;
 }
 
-.navbar-item-active .white {
+.profile-navigation-item-active .white {
     color: grey;
 }
 
@@ -71,8 +71,8 @@ a {
 }
 
 .profile-navigation-item-text {
-    margin: 0.4rem 0;
-    font-size: 0.8rem;
+    margin: 5px 0;
+    font-size: 0.8rem !important;
 }
 
 .grey {

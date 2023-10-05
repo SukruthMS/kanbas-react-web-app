@@ -63,7 +63,6 @@
 						/>
 					</a>
 				</div>
-				<!-- Add class navbar-item-active to the item that is active  -->
 				<div class="courses-navigation-account courses-navigation-item-container">
 					<a href="../account/index.html">
 						<i class="fa-regular fa-circle-user courses-navigation-item-icon white"></i>
@@ -76,7 +75,7 @@
 						<p class="courses-navigation-item-text">Dashboard</p>
 					</a>
 				</div>
-				<div class="courses-navigation-courses courses-navigation-item-container navbar-item-active">
+				<div class="courses-navigation-courses courses-navigation-item-container courses-navigation-item-active">
 					<a href="index.html">
 						<i class="fa-solid fa-book courses-navigation-item-icon"></i>
 						<p class="courses-navigation-item-text">Courses</p>
@@ -126,6 +125,29 @@
 				</div>
 			</div>
 			<div class="scrollable">
+				<div class="pos-f-t mobile-nav">
+					<div class="collapse absolute" id="navbarToggleExternalContent">
+						<div class="bg-dark p-4">
+							<h4 class="text-white">Collapsed content</h4>
+							<span class="text-muted">Toggleable via the navbar brand.</span>
+						</div>
+					</div>
+					<nav class="navbar navbar-dark bg-dark d-md-none p-0 m-0">
+						<a href="mobile-nav.html">
+							<button
+								class="navbar-toggler"
+								type="button"
+								data-toggle="collapse"
+								data-target="#navbarToggleExternalContent"
+								aria-controls="navbarToggleExternalContent"
+								aria-expanded="false"
+								aria-label="Toggle navigation"
+							>
+								<span class="navbar-toggler-icon"></span>
+							</button>
+						</a>
+					</nav>
+				</div>
 				<div class="main-page">
 					<div class="container-fluid">
 						<div class="row account-header">
@@ -147,9 +169,6 @@
 									</ol>
 								</nav>
 							</div>
-							<!-- <div class="float-end">
-								<i class="fa-solid fa-glasses"></i>
-							</div> -->
 						</div>
 						<div class="row account-header-divider">
 							<hr class="custom-divider" />
@@ -157,12 +176,11 @@
 
 						<div class="row">
 							<div class="col d-none d-lg-block col-md-2">
-								<div class="account-navigation">
+								<div class="courses-navigation">
 									<div class="navigation-head-text">
 										<i>202410_1 Fall 2023 Semest...</i>
 									</div>
-									<!-- Add account-nav-active class for the active class  -->
-									<div class="courses-navigation-element account-nav-active">
+									<div class="courses-navigation-element courses-nav-active">
 										<a href="#">
 											<p class="courses-navigation-element-title">Home</p>
 										</a>
