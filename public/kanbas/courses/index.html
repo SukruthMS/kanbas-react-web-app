@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+        <title>Courses</title>
+		
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+		
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		
+        <link
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		
+        <link
+			href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/css/all.css"
+			rel="stylesheet"
+		/>
+		
+        <link
+			href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+			rel="stylesheet"
+		/>
+		
+        <link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous"
+		/>
+		
+        <script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+			crossorigin="anonymous"
+		></script>
+		
+        <script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+			integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+			crossorigin="anonymous"
+		></script>
+		
+        <script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+			integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+			crossorigin="anonymous"
+		></script>
+		
+        <link href="index.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="courses-container">
+			<div class="courses-navigation-content">
+				<div class="neu-logo-container courses-navigation-item-container">
+					<a class="courses-navigation-link" href="../index.html">
+						<image
+							src="https://instructure-uploads.s3.amazonaws.com/account_145230000000000001/attachments/949/NU_MonoLVX_RGB_RW.png"
+							alt="NEU_Logo"
+						/>
+					</a>
+				</div>
+				<div class="courses-navigation-account courses-navigation-item-container">
+					<a href="../account/index.html">
+						<i class="fa-regular fa-circle-user courses-navigation-item-icon white"></i>
+						<p class="courses-navigation-item-text">Account</p>
+					</a>
+				</div>
+				<div class="courses-navigation-dashboard courses-navigation-item-container">
+					<a href="../dashboard/index.html">
+						<i class="fa-solid fa-gauge courses-navigation-item-icon"></i>
+						<p class="courses-navigation-item-text">Dashboard</p>
+					</a>
+				</div>
+				<div class="courses-navigation-courses courses-navigation-item-container courses-navigation-item-active">
+					<a href="index.html">
+						<i class="fa-solid fa-book courses-navigation-item-icon"></i>
+						<p class="courses-navigation-item-text">Courses</p>
+					</a>
+				</div>
+				<div class="courses-navigation-calendar courses-navigation-item-container">
+					<a href="#">
+						<i class="fa-solid fa-calendar-days courses-navigation-item-icon"></i>
+
+						<p class="courses-navigation-item-text">Calendar</p>
+					</a>
+				</div>
+				<div class="courses-navigation-inbox courses-navigation-item-container">
+					<a href="#">
+						<i class="fa-solid fa-inbox courses-navigation-item-icon"></i>
+
+						<p class="courses-navigation-item-text">Inbox</p>
+					</a>
+				</div>
+				<div class="courses-navigation-history courses-navigation-item-container">
+					<a href="#">
+						<i class="fa-regular fa-clock courses-navigation-item-icon"></i>
+
+						<p class="courses-navigation-item-text">History</p>
+					</a>
+				</div>
+				<div class="courses-navigation-studio courses-navigation-item-container">
+					<a href="#">
+						<i class="fa-solid fa-tv courses-navigation-item-icon"></i>
+
+						<p class="courses-navigation-item-text">Studio</p>
+					</a>
+				</div>
+				<div class="courses-navigation-commons courses-navigation-item-container">
+					<a href="#">
+						<i class="fa-solid fa-arrow-right-from-bracket courses-navigation-item-icon"></i>
+
+						<p class="courses-navigation-item-text">Commons</p>
+					</a>
+				</div>
+				<div class="courses-navigation-help courses-navigation-item-container">
+					<a href="#">
+						<i class="fa-regular fa-circle-question courses-navigation-item-icon"></i>
+
+						<p class="courses-navigation-item-text">Help</p>
+					</a>
+				</div>
+			</div>
+			<div class="scrollable">
+				<div class="pos-f-t mobile-nav">
+					<div class="collapse absolute" id="navbarToggleExternalContent">
+						<div class="bg-dark p-4">
+							<h4 class="text-white">Collapsed content</h4>
+							<span class="text-muted">Toggleable via the navbar brand.</span>
+						</div>
+					</div>
+					<nav class="navbar navbar-dark bg-dark d-md-none p-0 m-0">
+						<a href="mobile-nav.html">
+							<button
+								class="navbar-toggler"
+								type="button"
+								data-toggle="collapse"
+								data-target="#navbarToggleExternalContent"
+								aria-controls="navbarToggleExternalContent"
+								aria-expanded="false"
+								aria-label="Toggle navigation"
+							>
+								<span class="navbar-toggler-icon"></span>
+							</button>
+						</a>
+					</nav>
+				</div>
+				<div class="main-page">
+					<div class="container-fluid">
+						<div class="row account-header">
+							<div class="col col-sm-1">
+								<i class="fa-solid fa-bars custom-hamburger"></i>
+							</div>
+							<div class="col col-sm-11 custom-breadcrumb">
+								<nav
+									style="--bs-breadcrumb-divider: '>'"
+									aria-label="breadcrumb"
+								>
+									<ol class="breadcrumb">
+										<li class="breadcrumb-item red">
+											<a href="#">CS4550.12631.202410</a>
+										</li>
+										<li class="breadcrumb-item active" aria-current="page">
+											Home
+										</li>
+									</ol>
+								</nav>
+							</div>
+						</div>
+						<div class="row account-header-divider">
+							<hr class="custom-divider" />
+						</div>
+
+						<div class="row">
+							<div class="col d-none d-lg-block col-md-2">
+								<div class="courses-navigation">
+									<div class="navigation-head-text">
+										<i>202410_1 Fall 2023 Semest...</i>
+									</div>
+									<div class="courses-navigation-element courses-nav-active">
+										<a href="#">
+											<p class="courses-navigation-element-title">Home</p>
+										</a>
+									</div>
+									<div class="courses-navigation-element">
+										<a href="index.html">
+											<p class="courses-navigation-element-title">Modules</p>
+										</a>
+									</div>
+									<div class="courses-navigation-element">
+										<a href="#">
+											<p class="courses-navigation-element-title">Piazza</p>
+										</a>
+									</div>
+									<div class="courses-navigation-element">
+										<a href="#">
+											<p class="courses-navigation-element-title">Zoom Meetings</p>
+										</a>
+									</div>
+									<div class="courses-navigation-element">
+										<a href="./assignments/">
+											<p class="courses-navigation-element-title">Assignments</p>
+										</a>
+									</div>
+									<div class="courses-navigation-element">
+										<a href="#">
+											<p class="courses-navigation-element-title">Quizzes</p>
+										</a>
+									</div>
+									<div class="courses-navigation-element">
+										<a href="./grades/">
+											<p class="courses-navigation-element-title">Grades</p>
+										</a>
+									</div>
+									<div class="courses-navigation-element">
+										<a href="#">
+											<p class="courses-navigation-element-title">People</p>
+										</a>
+									</div>
+									<div class="courses-navigation-element">
+										<a href="#">
+											<p class="courses-navigation-element-title">Panopto Video</p>
+										</a>
+									</div>
+									<div class="courses-navigation-element">
+										<a href="#">
+											<p class="courses-navigation-element-title">
+												Announcements
+												<i class="fa-solid fa-eye-slash grey"></i>
+											</p>
+										</a>
+									</div>
+									<div class="courses-navigation-element">
+										<a href="./settings/">
+											<p class="courses-navigation-element-title">Settings</p>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col col-12 col-md-10 col-lg-7 container-fluid">
+								<div class="row container">
+									<div class="course-action-buttons">
+										<button
+											type="button"
+											class="btn btn-secondary float-end cab"
+										>
+											<i
+												style="font-size: 1rem"
+												class="fa-solid fa-ellipsis-vertical black"
+											></i>
+										</button>
+										<button type="button" class="btn btn-danger float-end cab">
+											<i class="fa-solid fa-plus white"></i> Module
+										</button>
+
+										<div class="dropdown float-end cab">
+											<button
+												class="btn btn-secondary dropdown-toggle"
+												type="button"
+												data-bs-toggle="dropdown"
+												aria-expanded="false"
+											>
+												<i class="fa-solid fa-check-circle green"></i> Publish
+												All
+											</button>
+											<ul class="dropdown-menu">
+												<li><a class="dropdown-item" href="#">Action</a></li>
+												<li>
+													<a class="dropdown-item" href="#">Another action</a>
+												</li>
+												<li>
+													<a class="dropdown-item" href="#"
+														>Something else here</a
+													>
+												</li>
+											</ul>
+										</div>
+										<button
+											type="button"
+											class="btn btn-secondary float-end cab"
+										>
+											View Progress
+										</button>
+										<button
+											type="button"
+											class="btn btn-secondary float-end cab"
+										>
+											Collapse All
+										</button>
+									</div>
+								</div>
+								<div class="row">
+									<hr class="custom-divider ma-10" />
+								</div>
+								<div class="row">
+									<ul class="list-group module-group">
+										<li class="list-group-item list-group-item-secondary">
+											<i class="fa-solid fa-caret-down"></i> Week 0 - INTRO
+											<i
+												class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+											></i>
+											<i class="fa-solid fa-plus grey float-end ma-050"></i>
+
+											<i class="fa-solid fa-caret-down float-end ma-050"></i>
+											<i class="fa-solid fa-check-circle green float-end"></i>
+										</li>
+										<li class="list-group-item done">
+											<strong>LEARNING OBJECTIVES</strong>
+											<i
+												class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+											></i>
+											<i class="fa-solid fa-check-circle green float-end"></i>
+										</li>
+
+										<li class="list-group-item done indent">
+											<span class="ps-4"> Introduction to the course </span>
+											<i
+												class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+											></i>
+											<i class="fa-solid fa-check-circle green float-end"></i>
+										</li>
+										<li class="list-group-item done indent">
+											<span class="ps-4"> Learn What is Web Development </span>
+											<i
+												class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+											></i>
+											<i class="fa-solid fa-check-circle green float-end"></i>
+										</li>
+										<li class="list-group-item done indent">
+											<span class="ps-4">
+												Creating a development environment
+											</span>
+											<i
+												class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+											></i>
+											<i class="fa-solid fa-check-circle green float-end"></i>
+										</li>
+
+										<li class="list-group-item done">
+											<strong>READING</strong>
+											<i
+												class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+											></i>
+											<i class="fa-solid fa-check-circle green float-end"></i>
+										</li>
+
+										<li class="list-group-item done indent">
+											<span class="ps-4">
+												Full Stack Developer - Chapter 1 - Introduction
+											</span>
+											<i
+												class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+											></i>
+											<i class="fa-solid fa-check-circle green float-end"></i>
+										</li>
+										<li class="list-group-item done indent">
+											<span class="ps-4">
+												Full Stack Developer - Chapter 2 - Creating User
+												Interfaces
+											</span>
+											<i
+												class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+											></i>
+											<i class="fa-solid fa-check-circle green float-end"></i>
+										</li>
+										<li class="list-group-item done">
+											<strong>SLIDES</strong>
+											<i
+												class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+											></i>
+											<i class="fa-solid fa-check-circle green float-end"></i>
+										</li>
+										<a href="#">
+											<li class="list-group-item done">
+												<i class="fa-solid fa-link green pa-075"></i>
+												<span class="red">
+													Introduction to web development
+												</span>
+												<i
+													class="fa-solid fa-up-right-from-square red pointer pa-075"
+												></i>
+												<i
+													class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+												></i>
+												<i class="fa-solid fa-check-circle green float-end"></i>
+											</li>
+										</a>
+										<a href="#">
+											<li class="list-group-item done">
+												<i class="fa-solid fa-link green pa-075"></i>
+												<span class="red">
+													Creating an HTTP server with Node.js
+												</span>
+												<i
+													class="fa-solid fa-up-right-from-square red pointer pa-075"
+												></i>
+												<i
+													class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+												></i>
+												<i class="fa-solid fa-check-circle green float-end"></i>
+											</li>
+										</a>
+
+										<a href="#">
+											<li class="list-group-item done">
+												<i class="fa-solid fa-link green pa-075"></i>
+												<span class="red"> Creating a React Application </span>
+												<i
+													class="fa-solid fa-up-right-from-square red pointer pa-075"
+												></i>
+												<i
+													class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+												></i>
+												<i class="fa-solid fa-check-circle green float-end"></i>
+											</li>
+										</a>
+									</ul>
+
+									<ul class="list-group module-group">
+										<li class="list-group-item list-group-item-secondary">
+											<i class="fa-solid fa-caret-down"></i> Week 1 - HTML
+											<i
+												class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+											></i>
+											<i class="fa-solid fa-plus grey float-end ma-050"></i>
+
+											<i class="fa-solid fa-caret-down float-end ma-050"></i>
+											<i class="fa-solid fa-check-circle green float-end"></i>
+										</li>
+										<li class="list-group-item done">
+											<strong>LEARNING OBJECTIVES</strong>
+											<i
+												class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+											></i>
+											<i class="fa-solid fa-check-circle green float-end"></i>
+										</li>
+
+										<li class="list-group-item done indent">
+											<span class="ps-4"> Introduction to the course </span>
+											<i
+												class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+											></i>
+											<i class="fa-solid fa-check-circle green float-end"></i>
+										</li>
+										<li class="list-group-item done indent">
+											<span class="ps-4"> Learn What is Web Development </span>
+											<i
+												class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+											></i>
+											<i class="fa-solid fa-check-circle green float-end"></i>
+										</li>
+										<li class="list-group-item done indent">
+											<span class="ps-4">
+												Creating a development environment
+											</span>
+											<i
+												class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+											></i>
+											<i class="fa-solid fa-check-circle green float-end"></i>
+										</li>
+
+										<li class="list-group-item done">
+											<strong>READING</strong>
+											<i
+												class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+											></i>
+											<i class="fa-solid fa-check-circle green float-end"></i>
+										</li>
+
+										<li class="list-group-item done indent">
+											<span class="ps-4">
+												Full Stack Developer - Chapter 1 - Introduction
+											</span>
+											<i
+												class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+											></i>
+											<i class="fa-solid fa-check-circle green float-end"></i>
+										</li>
+										<li class="list-group-item done indent">
+											<span class="ps-4">
+												Full Stack Developer - Chapter 2 - Creating User
+												Interfaces
+											</span>
+											<i
+												class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+											></i>
+											<i class="fa-solid fa-check-circle green float-end"></i>
+										</li>
+										<li class="list-group-item done">
+											<strong>SLIDES</strong>
+											<i
+												class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+											></i>
+											<i class="fa-solid fa-check-circle green float-end"></i>
+										</li>
+										<a href="#">
+											<li class="list-group-item done">
+												<i class="fa-solid fa-link green pa-075"></i>
+												<span class="red">
+													Introduction to web development
+												</span>
+												<i
+													class="fa-solid fa-up-right-from-square red pointer pa-075"
+												></i>
+												<i
+													class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+												></i>
+												<i class="fa-solid fa-check-circle green float-end"></i>
+											</li>
+										</a>
+										<a href="#">
+											<li class="list-group-item done">
+												<i class="fa-solid fa-link green pa-075"></i>
+												<span class="red">
+													Creating an HTTP server with Node.js
+												</span>
+												<i
+													class="fa-solid fa-up-right-from-square red pointer pa-075"
+												></i>
+												<i
+													class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+												></i>
+												<i class="fa-solid fa-check-circle green float-end"></i>
+											</li>
+										</a>
+
+										<a href="#">
+											<li class="list-group-item done">
+												<i class="fa-solid fa-link green pa-075"></i>
+												<span class="red"> Creating a React Application </span>
+												<i
+													class="fa-solid fa-up-right-from-square red pointer pa-075"
+												></i>
+												<i
+													class="fa-solid fa-ellipsis-vertical black float-end ma-050"
+												></i>
+												<i class="fa-solid fa-check-circle green float-end"></i>
+											</li>
+										</a>
+									</ul>
+								</div>
+							</div>
+							<div class="col d-none d-xl-block col-lg-3">
+								<div class="course-actions">
+									<h5>Course Status</h5>
+									<div class="container-fluid mb-3">
+										<div class="row">
+											<div class="col-6 p-0">
+												<button type="button" class="btn btn-light fw">
+													Unpublish
+												</button>
+											</div>
+											<div class="col-6 p-0">
+												<button
+													type="button"
+													class="btn btn-success fw disabled"
+												>
+													Publish
+												</button>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-12 mt-2 p-0">
+												<button
+													type="button"
+													class="btn btn-outline-secondary fw"
+												>
+													<i class="fa-solid fa-file-import grey"></i> Existing
+													Content
+												</button>
+											</div>
+											<div class="col-12 mt-2 p-0">
+												<button
+													type="button"
+													class="btn btn-outline-secondary fw"
+												>
+													<i class="fa-solid fa-file-import grey"></i> Existing
+													Content
+												</button>
+											</div>
+											<div class="col-12 mt-2 p-0">
+												<button
+													type="button"
+													class="btn btn-outline-secondary fw"
+												>
+													<i class="fa-solid fa-file-import grey"></i> Existing
+													Content
+												</button>
+											</div>
+											<div class="col-12 mt-2 p-0">
+												<button
+													type="button"
+													class="btn btn-outline-secondary fw"
+												>
+													<i class="fa-solid fa-file-import grey"></i> Existing
+													Content
+												</button>
+											</div>
+											<div class="col-12 mt-2 p-0">
+												<button
+													type="button"
+													class="btn btn-outline-secondary fw"
+												>
+													<i class="fa-solid fa-file-import grey"></i> Existing
+													Content
+												</button>
+											</div>
+											<div class="col-12 mt-2 p-0">
+												<button
+													type="button"
+													class="btn btn-outline-secondary fw"
+												>
+													<i class="fa-solid fa-file-import grey"></i> Existing
+													Content
+												</button>
+											</div>
+										</div>
+									</div>
+									<h5>
+										<strong>To Do</strong>
+									</h5>
+
+									<hr class="custom-hr" />
+									<div class="container-fluid mb-4">
+										<div class="row">
+											<div class="col-1">
+												<i class="fa-solid fa-circle-exclamation red"></i>
+											</div>
+											<div class="col-10">
+												<i class="fa-solid fa-xmark grey float-end"></i>
+												<p style="font-size: 0.75rem" class="red p-0 m-0">
+													Grade A1 - HTML
+												</p>
+												<span style="font-size: 0.75rem" class="grey"
+													>100 points &#8226; Sep 18</span
+												>
+											</div>
+										</div>
+									</div>
+									<div class="action-header">
+										<h5>
+											<strong>Coming Up</strong>
+											<span class="red float-end" style="font-size: 0.8rem"
+												>View Calendar</span
+											>
+											<i
+												style="font-size: 0.8rem"
+												class="fa-solid fa-calendar grey float-end me-2"
+											></i>
+										</h5>
+									</div>
+									<hr class="custom-hr" />
+									<div class="container-fluid">
+										<div class="row p-3">
+											<div class="col-1">
+												<i class="fa-solid fa-calendar grey float-end me-2"></i>
+											</div>
+											<div class="col-10">
+												<p style="font-size: 1rem" class="red p-0 m-0">
+													Lecture
+												</p>
+												<p style="font-size: 0.75rem" class="grey p-0 m-0">
+													CS4550.12631.202410
+												</p>
+												<p style="font-size: 0.75rem" class="grey p-0 m-0">
+													Sept 11 at 7pm
+												</p>
+											</div>
+										</div>
+										<div class="row p-3">
+											<div class="col-1">
+												<i class="fa-solid fa-calendar grey float-end me-2"></i>
+											</div>
+											<div class="col-10">
+												<p style="font-size: 1rem" class="red p-0 m-0">
+													Lecture
+												</p>
+												<p style="font-size: 0.75rem" class="grey p-0 m-0">
+													CS4550.12631.202410
+												</p>
+												<p style="font-size: 0.75rem" class="grey p-0 m-0">
+													Sept 11 at 7pm
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,110 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <title>Edit Profile</title>
-</head>
-<body>
-    <table width = "100%">
-        <tr>
-            <td style="vertical-align: top; text-align: left;">
-                <ul>
-                    <li><a href="../index.html">Account</a></li>
-                    <li><a href="#">Dashboard</a></li>
-                    <li><a href="../../home/index.html">Courses</a></li>
-                    <li><a href="#">Calendar</a></li>
-                    <li><a href="#">Inbox</a></li>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Studio</a></li>
-                    <li><a href="#">Commons</a></li>
-                    <li><a href="#">Help</a></li>
-                </ul>
-            </td>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Edit Profile</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
 
-            <td style="vertical-align: top; text-align: left;">
-                <ul>
-                    <li><a href="#">Notifications</a></li>
-                    <li><a href="index.html">Profile</a></li>
-                    <li><a href="#">Files</a></li>
-                    <li><a href="#">Settings</a></li>
-                    <li><a href="#">ePortfolios</a></li>
-                    <li><a href="#">Shared Content</a></li>
-                    <li><a href="#">The Hub</a></li>
-                    <li><a href="#">Qwickly Course Tools</a></li>
-                    <li><a href="#">Global Announcements</a></li>
-                </ul>
-            </td>
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		
+        <link
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		
+        <link
+			href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/css/all.css"
+			rel="stylesheet"
+		/>
+		
+        <link
+			href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+			rel="stylesheet"
+		/>
+		
+        <link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		
+        <link href="edit.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="edit-profile-container">
+			<div class="edit-profile-content">
+				<div class="neu-logo-container edit-profile-item-container">
+					<a class="edit-profile-link" href="../index.html">
+						<image
+							src="https://instructure-uploads.s3.amazonaws.com/account_145230000000000001/attachments/949/NU_MonoLVX_RGB_RW.png"
+							alt="NEU_Logo"
+						/>
+					</a>
+				</div>
+				<div class="edit-profile-account edit-profile-item-container edit-navigation-item-active">
+					<a href="../index.html">
+						<i class="fa-regular fa-circle-user edit-profile-item-icon white"></i>
+						<p class="profile-nav-item-text">Account</p>
+					</a>
+				</div>
+				<div class="edit-profile-dashboard edit-profile-item-container">
+					<a href="../../dashboard/index.html">
+						<i class="fa-solid fa-gauge edit-profile-item-icon"></i>
+						<p class="profile-nav-item-text">Dashboard</p>
+					</a>
+				</div>
+				<div class="edit-profile-courses edit-profile-item-container">
+					<a href="../../courses/index.html">
+						<i class="fa-solid fa-book edit-profile-item-icon"></i>
+						<p class="profile-nav-item-text">Courses</p>
+					</a>
+				</div>
+				<div class="edit-profile-calendar edit-profile-item-container">
+					<a href="#">
+						<i class="fa-solid fa-calendar-days edit-profile-item-icon"></i>
+						<p class="profile-nav-item-text">Calendar</p>
+					</a>
+				</div>
+				<div class="edit-profile-inbox edit-profile-item-container">
+					<a href="#">
+						<i class="fa-solid fa-inbox edit-profile-item-icon"></i>
+						<p class="profile-nav-item-text">Inbox</p>
+					</a>
+				</div>
+				<div class="edit-profile-history edit-profile-item-container">
+					<a href="#">
+						<i class="fa-regular fa-clock edit-profile-item-icon"></i>
+						<p class="profile-nav-item-text">History</p>
+					</a>
+				</div>
+				<div class="edit-profile-studio edit-profile-item-container">
+					<a href="#">
+						<i class="fa-solid fa-tv edit-profile-item-icon"></i>
+						<p class="profile-nav-item-text">Studio</p>
+					</a>
+				</div>
+				<div class="edit-profile-commons edit-profile-item-container">
+					<a href="#">
+						<i class="fa-solid fa-arrow-right-from-bracket edit-profile-item-icon"></i>
+						<p class="profile-nav-item-text">Commons</p>
+					</a>
+				</div>
+				<div class="edit-profile-help edit-profile-item-container">
+					<a href="#">
+						<i class="fa-regular fa-circle-question edit-profile-item-icon"></i>
+						<p class="profile-nav-item-text">Help</p>
+					</a>
+				</div>
+			</div>
+			<div class="scrollable">
+				<div class="main-page">
+					<div class="container-fluid">
+						<div class="row account-header">
+							<div class="col col-sm-1">
+								<i class="fa-solid fa-bars custom-hamburger"></i>
+							</div>
+							<div class="col col-sm-11 profile-name-text">
+								Jose Annunziato's Profile
+							</div>
+						</div>
+						<div class="row">
+							<hr class="custom-divider" />
+						</div>
+						<div class="row">
+							<div class="col col-sm-3">
+								<div class="profile-navigation">
+									<div class="edit-profile-element">
+										<a href="#">
+											<p class="edit-profile-element-title">Notifications</p>
+										</a>
+									</div>
+									<div class="edit-profile-element profile-nav-active">
+										<a href="index.html">
+											<p class="edit-profile-element-title">Profile</p>
+										</a>
+									</div>
+									<div class="edit-profile-element">
+										<a href="#">
+											<p class="edit-profile-element-title">Files</p>
+										</a>
+									</div>
+									<div class="edit-profile-element">
+										<a href="#">
+											<p class="edit-profile-element-title">Settings</p>
+										</a>
+									</div>
+									<div class="edit-profile-element">
+										<a href="#">
+											<p class="edit-profile-element-title">ePortfolios</p>
+										</a>
+									</div>
+									<div class="edit-profile-element">
+										<a href="#">
+											<p class="edit-profile-element-title">Shared Content</p>
+										</a>
+									</div>
+									<div class="edit-profile-element">
+										<a href="#">
+											<p class="edit-profile-element-title">The Hub</p>
+										</a>
+									</div>
+									<div class="edit-profile-element">
+										<a href="#">
+											<p class="edit-profile-element-title">Quickly Course Tools</p>
+										</a>
+									</div>
+									<div class="edit-profile-element">
+										<a href="#">
+											<p class="edit-profile-element-title">Global Announcements</p>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col col-sm-9">
+								<div class="float-end">
+									<a href="index.html">
+										<button
+											type="button"
+											class="btn btn-secondary profile-action-button"
+										>
+											Cancel Editing
+											<i class="fa-solid fa-pencil" style="color: grey"></i>
+										</button>
+									</a>
+								</div>
+								<div class="row">
+									<div class="col-8">
+										<div class="profile-details">
+											<div class="basic-details">
+												<div class="account-icon-container">
+													<i
+														class="fa fa-user account-icon"
+														aria-hidden="true"
+													></i>
+												</div>
 
-            <td style="vertical-align: top; text-align: left;">
-                <h2>Jose Annunziato</h2>
+												<div class="mb-3">
+													<label for="name" class="form-label">
+														<strong>Name: *</strong>
+													</label>
+													<input
+														type="name"
+														class="form-control"
+														id="name"
+														value="Jose Annunziato"
+													/>
+													<br />
+													<label for="pronoun" class="form-label">
+														<strong>Pronouns: </strong>
+													</label>
+													<select id="pronoun" class="form-select">
+														<option selected>None</option>
+														<option value="1">Male</option>
+														<option value="2">Female</option>
+													</select>
+													<br />
+													<label for="title" class="form-label">
+														<strong>Title: </strong>
+													</label>
+													<input
+														type="name"
+														class="form-control"
+														id="title"
+														value="Jose Annunziato"
+													/>
+												</div>
+											</div>
 
-                <label style="display: inline;">Name:*</label>
-                <input type="text" value="Jose Annunziato">
-                <label>Pronouns:</label>
-                <select>
-                <option selected value="NONE">None</option>
-                </select>
+											<div class="contact">
+												<h3 class="section-heading">Contact</h3>
+												<p class="section-description">
+													No registered services, you can add some on the
+													<a href="/">
+														<span class="edit-profile-element-title">settings</span>
+													</a>
+													page
+												</p>
+											</div>
 
-                <br />
-                <br />
+											<div class="biography">
+												<h3 class="section-heading">Biography</h3>
+												<div class="mb-3">
+													<textarea
+														class="form-control"
+														id="biography"
+														rows="5"
+													>
+Faculty, Software Engineer, AI, Space, and renewables enthusiast.
+											</textarea
+													>
+												</div>
+											</div>
 
-                <label>Title:</label>
-                <input type="text">
-
-                <br />
-
-                <h3>Contact</h3>
-                <label>No registered services, you can add some on the settings page.</label>
-
-                <h3>Biography</h3>
-                <label>Faculty, Software Engineer, AI, Space, and renewables enthusiast.</label>
-                <br />
-                <textarea cols="40" rows="3">Faculty, Software Engineer, AI, Space, and renewables enthusiast.</textarea>
-
-                <h3>Links</h3>
-
-                <ul>
-                    <li><a href="#" style="color: blue">YouTube</a><span style="color: blue">&#128279;Links to an external site.</li>
-                </ul>
-
-                <table>
-                    <thead>
-                        <th style="text-align: center;">Title</th>
-                        <th></th>
-                        <th style="text-align: center;">URL</th>
-                        <th></th>
-                    </thead>
-                    <tbody>
-                        <td>
-                            <input type="text" value="YouTube" />
-                        </td>
-                        <td>&#8594;</td>
-                        <td>
-                            <input
-                                type="text"
-                                value="https://www.youtube.com/"
-                            />
-                        </td>
-                        <td>
-                            <a href="#" style="color: blue">Remove</a>
-                        </td>
-                    </tbody>
-                </table>
-
-                <br />
-                <button type="button">Add another link</button>
-                <br />
-                <form action="index.html">
-                    <button type="button">Cancel</button>
-                    <button type="submit">Save Profile</button>
-                </form>
-                <form action="index.html">
-                    <button type="button">Edit Profile</button>
-                    <button type="submit">Cancel Editing</button>
-                </form>
-                <br />
-            </td>
-        </tr>
-    </table>
-</body>
+											<div class="links">
+												<h3 class="section-heading">Links</h3>
+												<div class="container-fluid">
+													<div class="row">
+														<div class="col-5 d-flex justify-content-center">
+															<strong>Title</strong>
+														</div>
+														<div class="col-1"></div>
+														<div class="col-5 d-flex justify-content-center">
+															<strong>URL</strong>
+														</div>
+														<div class="col-1"></div>
+														<div class="col-5">
+															<input
+																type="text"
+																class="form-control"
+																id="title"
+																value="YouTube"
+															/>
+														</div>
+														<div class="col-1">
+															<i
+																class="fa-solid fa-arrow-right link-action-icon"
+															></i>
+														</div>
+														<div class="col-5">
+															<input
+																type="text"
+																class="form-control"
+																id="url"
+																value="https://www.youtube.com/"
+															/>
+														</div>
+														<div class="col-1">
+															<i
+																class="fa-solid fa-xmark link-action-icon red"
+															></i>
+														</div>
+													</div>
+													<br />
+													<button type="button" class="btn btn-light">
+														Add another link
+													</button>
+												</div>
+												<hr />
+												<div class="float-end links">
+													<a href="index.html">
+														<button type="button" class="btn btn-light">
+															Cancel
+														</button>
+													</a>
+													<a href="index.html">
+														<button type="button" class="btn btn-danger">
+															Save Profile
+														</button>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>

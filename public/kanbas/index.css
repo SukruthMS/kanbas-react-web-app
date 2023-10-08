@@ -1,0 +1,72 @@
+body {
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+    margin: 0
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.kanbas-navigation{
+    width: 85px;
+    height: 100vh;
+    background: black;
+    overflow-y: scroll;
+}
+
+.kanbas-navigation-item-container{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.kanbas-navigation-item-container a {
+    color: #ffffff;
+}
+
+
+.neu-logo-container img {
+    width: 100%;
+    height: auto;
+}
+
+.kanbas-navigation-item-icon {
+    font-size: 1.75rem;
+    color: #D41B2C;
+}
+
+.kanbas-navigation-item-active {
+    background: white;
+}
+
+.kanbas-navigation-item-active a{
+    color: #D41B2C;
+}
+
+.gray {
+    color: gray;
+}
+
+.white {
+    color: white;
+}
+
+.red {
+    color: #D41B2C;
+}
+
+.kanbas-navigation-item-text {
+    margin: 5px 0;
+    font-size: 0.8rem !important;
+}
+
+@media (max-width: 768px) {
+    .navbar-content {
+        display: none;
+    }
+}
