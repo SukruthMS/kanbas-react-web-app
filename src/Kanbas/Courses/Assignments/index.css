@@ -4,7 +4,6 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    overflow: hidden;
     margin: 0
 }
 
@@ -229,7 +228,7 @@ a {
 }
 
 .done {
-    border-left: 4px solid green;
+    border-left: 4px solid green !important;
 }
 
 .course-actions {
