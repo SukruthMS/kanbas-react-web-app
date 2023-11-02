@@ -1,8 +1,5 @@
 import React from "react";
-
-import db from "../Database";
 import { Navigate, Route, Routes, useLocation, useParams } from "react-router";
-
 import "./index.css";
 import CourseNavigation from "./CourseNavigation";
 import Home from "./Home";
@@ -12,12 +9,10 @@ import Assignments from "./Assignments";
 import AssignmentEditor from "./Assignments/AssignmentEditor";
 import Grades from "./Grades";
 
-const Courses = () => {
+const Courses = ({ courses }) => {
   const { courseId } = useParams();
-  const { name, number, startDate, endDate } = db.courses.find(
-    (c) => c._id === courseId
-  );
-
+  const course = courses.find((course) => course._id === courseId);
+  const { name, number, startDate, endDate } = course;
   const { pathname } = useLocation();
 
   return (
