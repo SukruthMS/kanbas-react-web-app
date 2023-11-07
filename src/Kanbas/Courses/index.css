@@ -83,7 +83,6 @@ a {
     padding: 0.5rem;
 }
 
-
 .custom-hamburger {
     font-size: 2.5rem;
     color: #D41B2C;
@@ -272,4 +271,10 @@ a {
     .mobile-nav-container {
         width: 100%;
     }
+}
+
+.module-list-entry {
+    display: flex;
+    align-items:center;
+    justify-content: center;
 }
