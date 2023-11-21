@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./index.css";
 import { Link } from "react-router-dom";
 import CourseCard from "./CourseCard";
@@ -62,9 +61,9 @@ const Dashboard = ({
                   </div>
                 </div>
                 <div className="col-6 p-2">
-                  <label for="course-name">Course Name</label>
+                  <label htmlFor="course-name">Course Name</label>
                   <input
-                    class="form-control"
+                    className="form-control"
                     type="text"
                     placeholder="Course Name"
                     value={course.name}
@@ -74,9 +73,9 @@ const Dashboard = ({
                   />
                 </div>
                 <div className="col-6 p-2">
-                  <label for="course-number">Course Number</label>
+                  <label htmlFor="course-number">Course Number</label>
                   <input
-                    class="form-control"
+                    className="form-control"
                     type="text"
                     placeholder="Course Number"
                     value={course.number}
@@ -86,7 +85,7 @@ const Dashboard = ({
                   />
                 </div>
                 <div className="col-6 p-2">
-                  <label for="start-date">Start Date</label>
+                  <label htmlFor="start-date">Start Date</label>
                   <input
                     value={course.startDate}
                     className="form-control"
@@ -97,7 +96,7 @@ const Dashboard = ({
                   />
                 </div>
                 <div className="col-6 p-2">
-                  <label for="end-date">End Date</label>
+                  <label htmlFor="end-date">End Date</label>
                   <input
                     value={course.endDate}
                     className="form-control"
